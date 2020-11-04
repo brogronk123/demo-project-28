@@ -15,11 +15,11 @@ class SlingShot{
     }
     
     // fly(){
-    //     this.sling.bodyA = null;
+    //     
     // }
 
     display(){
-        if(this.sling.bodyA){
+        if(this.sling.bodyA===null){
             var pointA = this.sling.bodyA.position;
             var pointB = this.pointB;
             
